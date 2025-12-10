@@ -44,7 +44,7 @@ CampusCare AI helps students interpret symptoms by mapping them to a limited set
 - Strep throat  
 - Stomach flu  
 - Bronchitis  
-- **Unknown** (catch-all for vague or out-of-scope cases)
+- **Unknown** (catch-all for vague, irrelevant, and out-of-scope cases)
 
 The model provides:
 - A **single condition** (never multiple)  
@@ -71,7 +71,9 @@ SFT teaches the model to:
 **Model Architecture:**  
 - Base: Llama-3.2-3B-Instruct  
 - Framework: Unsloth for efficient training  
-- LoRA (r=8, alpha=16) after testing to avoid overfitting or repetition  
+- LoRA (r=8, alpha=16) after testing to avoid overfitting or repetition
+
+**SFT results can be found in section "SFT Evaluation" and are shown as Figure 3 in the report**
 
 ---
 
@@ -95,6 +97,8 @@ It optimizes for:
 **Key Hyperparameters:**  
 - **β = 0.1** (reduces oversteering; stabilizes training)  
 - Conservative learning rate and epoch count  
+
+**DPO results can be found in section "DPO Evaluation" and are shown as Figure 4 in the report**
 
 ---
 
@@ -144,7 +148,7 @@ Guidance: It's possible that your symptoms are related to allergies. Try avoidin
 ## 🧩 Repository Structure
 
 ```
-├── campus_care_ai.ipynb         # Full SFT → restart → DPO → evaluation → UI pipeline
+├── CampusCare_AI.ipynb         # Full SFT → restart → DPO → evaluation → UI pipeline
 ├── dataset_sft.csv               # SFT training dataset
 ├── dataset_dpo.jsonl             # DPO preference dataset
 ├── README.md                     # Documentation
@@ -154,6 +158,7 @@ Guidance: It's possible that your symptoms are related to allergies. Try avoidin
 ---
 
 ## 🔁 Reproducing the Full Pipeline (Deterministic)
+Before running the full script, make sure you have both training datasets uploaded into your local Colab folder
 
 ### **Step 0 – Install Dependencies**
 ```bash
@@ -163,30 +168,38 @@ pip install unsloth accelerate transformers trl datasets gradio
 ---
 
 ### **Step 1 – Run Supervised Fine-Tuning (SFT)**  
-Open `campus_care_ai.ipynb` and run the section titled:
+Open `CampusCare_AI.ipynb` and run the section titled:
 
 **Technique 1: Supervised Fine-Tuning (SFT)**
 
-**SFT results are shown Figure 3 of the report
-
-
-This section trains the LoRA adapters and saves the model to:
+This section:
+- Loads Llama-3.2–3B-Instruct
+- Applies LoRA adapters
+- Loads dataset_sft.csv
+- Trains the model to map symptoms → one correct condition
+- Teaches the structured 3-line output format
+- Saves the trained LoRA model to:
 
 ```
 model-medical-sft-final/
 ```
 
+**SFT results can be found in section "SFT Evaluation" and are shown as Figure 3 in the report**
+
 ---
 
 ### **Step 2 – REQUIRED Runtime Reset**
-You MUST restart before beginning DPO. Do this by running the section titled:
+Before running DPO, you must restart the Colab runtime.
+This is required because Unsloth monkey-patches TRL’s trainer.
 
-**Transition Block**
+**Run the Transition Block**
 
 ```python
 import os
 os.kill(os.getpid(), 9)   # <-- HARD RESTART (safe for Colab)
 ```
+
+After the restart finishes, scroll down to Technique 2 and continue.
 
 ---
 
@@ -195,23 +208,36 @@ Now run the section titled:
 
 **Technique 2: Direct Preference Optimization (DPO)**
 
-**DPO results are shown Figure 4 of the report
 
 
-This section produces the final aligned model:
+This stage:
+- Reloads the SFT model
+- Loads dataset_dpo.jsonl
+- Optimizes tone, empathy, format discipline, and safety
+- Removes extra disclaimers
+- Discourages hallucination and multi-condition outputs
+- Saves the final aligned symptom classifier to:
 
 ```
 symptom_sft_dpo/
 ```
+
+**DPO results can be found in section "DPO Evaluation" and are shown as Figure 4 in the report**
+
 ---
 
 ### **Step 4 – Evaluate the Final Model**  
-Run the evaluation section:
+Run the evaluation section titled:
 
-**DPO Evaluation (Strict Format Tests)**
+**DPO Evaluation**
 
-This reproduces the metrics and all example outputs shown in the report.
-
+This section reproduces every output shown in the report:
+- Condition classification consistency
+- “Unknown” handling for vague inputs
+- Strict 3-line formatting
+- Behavior improvements from DPO
+- Sample comparisons vs. SFT baseline
+  
 ---
 
 ### **Step 5 – Launch the Gradio App**
@@ -219,7 +245,10 @@ This reproduces the metrics and all example outputs shown in the report.
 demo.launch()
 ```
 
-This opens the CampusCare AI interface.
+This opens the CampusCare AI web application, where users can:
+- Type symptoms
+- Receive safe, concise, aligned guidance
+- View model output in the final production UI
 
 ---
 ## CampusCare AI was developed by Ryan Songvilay and Ruthie Bai
