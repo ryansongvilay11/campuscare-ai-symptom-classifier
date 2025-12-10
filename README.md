@@ -53,21 +53,6 @@ The model provides:
 
 CampusCare is **not** a diagnostic tool. It avoids alarming or speculative results and keeps communication safe and concise.
 
-### Target Audience  
-The system is designed for **college students**, whose symptom patterns typically align with these seven common illnesses.  
-By intentionally restricting scope, we reduce hallucinations and support responsible decision-making.
-
-### Business Context  
-CampusCare AI can be integrated into university healthcare systems—for example, UT Austin’s University Health Services—next to resources such as:
-- “Request an Appointment”
-- “My UTHA Patient Portal”
-- Wellness & after-hours care tools
-
-Universities benefit through:
-- Reduced unnecessary clinic traffic  
-- Improved student engagement with health resources  
-- A scalable, accessible, and safe symptom-guidance tool  
-
 ---
 
 ## 🧠 Techniques Implemented & System Design
@@ -87,11 +72,6 @@ SFT teaches the model to:
 - Base: Llama-3.2-3B-Instruct  
 - Framework: Unsloth for efficient training  
 - LoRA (r=8, alpha=16) after testing to avoid overfitting or repetition  
-
-**Key Fixes Learned from Iteration:**  
-- Added a constrained condition list  
-- Taught the model to default to “Unknown”  
-- Corrected prompt formatting to prevent echoing or verbosity  
 
 ---
 
@@ -115,13 +95,6 @@ It optimizes for:
 **Key Hyperparameters:**  
 - **β = 0.1** (reduces oversteering; stabilizes training)  
 - Conservative learning rate and epoch count  
-
-**Challenges Solved:**  
-- Unsloth → TRL requires environment restart before DPO  
-- Chat templates initially produced malformed generations  
-- Early runs hallucinated new illnesses → corrected through dataset & β tuning  
-
-After tuning, DPO improved tone, safety, format discipline, and clarity.
 
 ---
 
@@ -165,34 +138,18 @@ Output:
 Condition: Allergies
 Guidance: It's possible that your symptoms are related to allergies. Try avoiding known triggers like pollen, dust, or certain foods, and take an antihistamine to see if it relieves your symptoms. Stay hydrated by drinking plenty of water. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist.
 ```
----
-
-## 🧪 Acceptance Tests (Qualitative Evaluation)
-
-### SFT Results  
-- Happy cases → model selects correct condition  
-- Edge cases → consistently chooses “Unknown”  
-- Failure case → overweighted specific symptoms → fixed via “Unknown” fallback logic  
-
-### DPO Results  
-- Happy cases → more concise & empathetic  
-- Edge cases → handles irrelevant or unrelated text safely  
-- Failure case → complex symptom combinations still challenging → mitigated with stricter training rules  
 
 ---
 
 ## 🧩 Repository Structure
 
 ```
-├── final_project_12_9.py         # Full SFT → restart → DPO → evaluation → UI pipeline
+├── campus_care_ai.ipynb         # Full SFT → restart → DPO → evaluation → UI pipeline
 ├── dataset_sft.csv               # SFT training dataset
 ├── dataset_dpo.jsonl             # DPO preference dataset
-├── model-medical-sft-final/      # Saved SFT checkpoint
-├── symptom_sft_dpo/              # Final production model (SFT + DPO merged)
 ├── README.md                     # Documentation
 └── LICENSE                       # MIT License
 ```
-
 
 ---
 
@@ -206,11 +163,14 @@ pip install unsloth accelerate transformers trl datasets gradio
 ---
 
 ### **Step 1 – Run Supervised Fine-Tuning (SFT)**  
-Open `final_project_12_9.py` and run the section titled:
+Open `campus_care_ai.ipynb` and run the section titled:
 
 **Technique 1: Supervised Fine-Tuning (SFT)**
 
-This trains the LoRA adapters and saves the model to:
+**SFT results are shown Figure 3 of the report
+
+
+This section trains the LoRA adapters and saves the model to:
 
 ```
 model-medical-sft-final/
@@ -235,12 +195,14 @@ Now run the section titled:
 
 **Technique 2: Direct Preference Optimization (DPO)**
 
-This produces the final aligned model:
+**DPO results are shown Figure 4 of the report
+
+
+This section produces the final aligned model:
 
 ```
 symptom_sft_dpo/
 ```
-
 ---
 
 ### **Step 4 – Evaluate the Final Model**  
