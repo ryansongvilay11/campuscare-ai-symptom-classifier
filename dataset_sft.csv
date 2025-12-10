@@ -1,0 +1,181 @@
+Input,Output
+"Sneezing, runny nose, mild sore throat, light cough, low energy.","Condition: Common Cold
+Guidance: The symptoms are commonly associated with common cold. Next steps are to rest, stay hypdrated, and monitor your symptoms. Consider taking over-the-counter medications. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Stuffy nose, mild headache, scratchy throat, no fever.","Condition: Common Cold
+Guidance: The symptoms are commonly associated with common cold. Next steps are to rest, stay hypdrated, and monitor your symptoms. Consider taking over-the-counter medications. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Runny nose and occasional cough for two days, no major discomfort.","Condition: Common Cold
+Guidance: The symptoms are commonly associated with common cold. Next steps are to rest, stay hypdrated, and monitor your symptoms. Consider taking over-the-counter medications. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Sneezing frequently with mild congestion but otherwise okay.,"Condition: Common Cold
+Guidance: The symptoms are commonly associated with common cold. Next steps are to rest, stay hypdrated, and monitor your symptoms. Consider taking over-the-counter medications. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Mild throat irritation and clear nasal drainage started slowly.,"Condition: Common Cold
+Guidance: The symptoms are commonly associated with common cold. Next steps are to rest, stay hypdrated, and monitor your symptoms. Consider taking over-the-counter medications. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"High fever, chills, intense body aches, and dry cough.","Condition: Flu
+Guidance: The symptoms are commonly associated with flu. Next steps are to rest, drink plenty of fluids, and manage fever/body aches with OTC medications. High-risk individuals should consider contacting a provider regarding antivirals. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Sudden fatigue, fever, muscle soreness, and headaches.","Condition: Flu
+Guidance: The symptoms are commonly associated with flu. Next steps are to rest, drink plenty of fluids, and manage fever/body aches with OTC medications. High-risk individuals should consider contacting a provider regarding antivirals. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Chills, strong body aches, and deep cough that started quickly.","Condition: Flu
+Guidance: The symptoms are commonly associated with flu. Next steps are to rest, drink plenty of fluids, and manage fever/body aches with OTC medications. High-risk individuals should consider contacting a provider regarding antivirals. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Fever, exhaustion, coughing, and joint pain.","Condition: Flu
+Guidance: The symptoms are commonly associated with flu. Next steps are to rest, drink plenty of fluids, and manage fever/body aches with OTC medications. High-risk individuals should consider contacting a provider regarding antivirals. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Rapid onset of fatigue, fever, and persistent cough.","Condition: Flu
+Guidance: The symptoms are commonly associated with flu. Next steps are to rest, drink plenty of fluids, and manage fever/body aches with OTC medications. High-risk individuals should consider contacting a provider regarding antivirals. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Loss of taste and smell with mild cough and congestion.,"Condition: Covid-19
+Guidance: The symptoms are commonly associated with Covid-19. Next steps are to take a COVID test, isolate until results are known, rest, stay hydrated, and use OTC medications. Seek care sooner if breathing issues arise. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Dry cough, fever, fatigue, and recent exposure to someone sick.","Condition: Covid-19
+Guidance: The symptoms are commonly associated with Covid-19. Next steps are to take a COVID test, isolate until results are known, rest, stay hydrated, and use OTC medications. Seek care sooner if breathing issues arise. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Headache, sore throat, and reduced sense of smell.","Condition: Covid-19
+Guidance: The symptoms are commonly associated with Covid-19. Next steps are to take a COVID test, isolate until results are known, rest, stay hydrated, and use OTC medications. Seek care sooner if breathing issues arise. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Mild fever, cough, and difficulty tasting food.","Condition: Covid-19
+Guidance: The symptoms are commonly associated with Covid-19. Next steps are to take a COVID test, isolate until results are known, rest, stay hydrated, and use OTC medications. Seek care sooner if breathing issues arise. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Congestion, fatigue, and sudden loss of smell.","Condition: Covid-19
+Guidance: The symptoms are commonly associated with Covid-19. Next steps are to take a COVID test, isolate until results are known, rest, stay hydrated, and use OTC medications. Seek care sooner if breathing issues arise. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Persistent productive cough and chest tightness.,"Condition: Bronchitis
+Guidance: The symptoms are commonly associated with bronchitis. Next steps are to rest, drink warm fluids, and consider using a humidifier. Seek medical care if breathing worsens or cough persists. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Deep cough with mucus and mild wheezing.,"Condition: Bronchitis
+Guidance: The symptoms are commonly associated with bronchitis. Next steps are to rest, drink warm fluids, and consider using a humidifier. Seek medical care if breathing worsens or cough persists. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Chest congestion and long-lasting cough after a cold.,"Condition: Bronchitis
+Guidance: The symptoms are commonly associated with bronchitis. Next steps are to rest, drink warm fluids, and consider using a humidifier. Seek medical care if breathing worsens or cough persists. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Mucus-heavy cough and mild shortness of breath.,"Condition: Bronchitis
+Guidance: The symptoms are commonly associated with bronchitis. Next steps are to rest, drink warm fluids, and consider using a humidifier. Seek medical care if breathing worsens or cough persists. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Harsh cough that started after being sick for a week.,"Condition: Bronchitis
+Guidance: The symptoms are commonly associated with bronchitis. Next steps are to rest, drink warm fluids, and consider using a humidifier. Seek medical care if breathing worsens or cough persists. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Itchy eyes, sneezing, and a runny nose, but no fever.","Condition: Allergies
+Guidance: The symptoms are commonly associated with allergies. Next steps are to avoid known triggers, take antihistamines or nasal sprays, and monitor whether symptoms improve with allergy treatment. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Nasal congestion with watery eyes when outdoors.,"Condition: Allergies
+Guidance: The symptoms are commonly associated with allergies. Next steps are to avoid known triggers, take antihistamines or nasal sprays, and monitor whether symptoms improve with allergy treatment. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Sneezing repeatedly with itchy throat and clear mucus.,"Condition: Allergies
+Guidance: The symptoms are commonly associated with allergies. Next steps are to avoid known triggers, take antihistamines or nasal sprays, and monitor whether symptoms improve with allergy treatment. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Runny nose and eye irritation triggered by pollen.,"Condition: Allergies
+Guidance: The symptoms are commonly associated with allergies. Next steps are to avoid known triggers, take antihistamines or nasal sprays, and monitor whether symptoms improve with allergy treatment. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Intermittent sneezing and itchy skin without feeling sick.,"Condition: Allergies
+Guidance: The symptoms are commonly associated with allergies. Next steps are to avoid known triggers, take antihistamines or nasal sprays, and monitor whether symptoms improve with allergy treatment. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Severe sore throat with white patches and pain swallowing.,"Condition: Strep Throat
+Guidance: The symptoms are commonly associated with strep throat. Next steps are to get evaluated by a healthcare provider for a rapid strep test, since antibiotics may be needed. Rest and drink warm fluids. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Sharp throat pain, fever, and swollen glands.","Condition: Strep Throat
+Guidance: The symptoms are commonly associated with strep throat. Next steps are to get evaluated by a healthcare provider for a rapid strep test, since antibiotics may be needed. Rest and drink warm fluids. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+White spots on tonsils with sudden throat pain.,"Condition: Strep Throat
+Guidance: The symptoms are commonly associated with strep throat. Next steps are to get evaluated by a healthcare provider for a rapid strep test, since antibiotics may be needed. Rest and drink warm fluids. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Painful swallowing and red, irritated throat.","Condition: Strep Throat
+Guidance: The symptoms are commonly associated with strep throat. Next steps are to get evaluated by a healthcare provider for a rapid strep test, since antibiotics may be needed. Rest and drink warm fluids. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Sore throat with fever and swollen lymph nodes.,"Condition: Strep Throat
+Guidance: The symptoms are commonly associated with strep throat. Next steps are to get evaluated by a healthcare provider for a rapid strep test, since antibiotics may be needed. Rest and drink warm fluids. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Nausea, stomach cramps, diarrhea, and tiredness.","Condition: Stomach Flu
+Guidance: The symptoms are commonly associated with stomach flu. Next steps are to stay hydrated with water or electrolytes, rest, and eat a bland diet as tolerated. Seek care if unable to keep fluids down or signs of dehydration appear. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Vomiting, watery diarrhea, and loss of appetite.","Condition: Stomach Flu
+Guidance: The symptoms are commonly associated with stomach flu. Next steps are to stay hydrated with water or electrolytes, rest, and eat a bland diet as tolerated. Seek care if unable to keep fluids down or signs of dehydration appear. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Stomach pain with nausea and mild fever.,"Condition: Stomach Flu
+Guidance: The symptoms are commonly associated with stomach flu. Next steps are to stay hydrated with water or electrolytes, rest, and eat a bland diet as tolerated. Seek care if unable to keep fluids down or signs of dehydration appear. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+Fatigue with vomiting and frequent diarrhea.,"Condition: Stomach Flu
+Guidance: The symptoms are commonly associated with stomach flu. Next steps are to stay hydrated with water or electrolytes, rest, and eat a bland diet as tolerated. Seek care if unable to keep fluids down or signs of dehydration appear. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+"Cramps, nausea, and loose stools for a day.","Condition: Stomach Flu
+Guidance: The symptoms are commonly associated with stomach flu. Next steps are to stay hydrated with water or electrolytes, rest, and eat a bland diet as tolerated. Seek care if unable to keep fluids down or signs of dehydration appear. Safety note: This is not a diagnosis. Please consult a healthcare professional if symptoms worsen or persist."
+I just feel off today but can’t really explain it.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Something feels weird but I don’t have any specific symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel strange but nothing really hurts.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+"I don’t know, I just feel weird.","Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel off but can't point to any symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel unwell but can't describe how.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I'm worried something might be wrong but I don't notice clear symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I'm uncomfortable overall and can’t describe it.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I don’t feel like myself today.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel weird mentally but not physically sick.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I'm tired and off but maybe it's stress.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel bad but can’t tell if it’s sickness or something else.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+My body feels weird overall.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel strange and anxious but no physical symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I don’t know what symptoms I have but something feels off.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I thought I had symptoms earlier but now I’m not sure.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I might feel sick but can't really describe it.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Something feels off in my body but not enough to explain.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I just feel unusual today.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I can’t tell if I’m sick or just tired.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I don’t feel normal but I don’t have symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel off and can’t describe any specific symptom.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel like something is wrong but there’s no pain.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel odd but don’t have any typical symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel weird but don’t know how to explain it.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I think I might be sick but none of the usual symptoms are there.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I don’t feel great today but nothing stands out.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I’m worried about my health but no specific symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel strange and can’t tell what’s causing it.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel funny and can't explain the feeling.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I'm worried this might be cancer because I feel off.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Could this be a heart attack? My chest feels strange.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I think I might have cancer because I've been feeling weird.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Could this be a stroke? I feel strange.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+My stomach hurts—could it be colon cancer?,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I'm afraid this is leukemia because I'm tired.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Could this be a brain tumor? I’ve had headaches.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I think this might be lymphoma but I'm unsure.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Could my symptoms indicate ovarian cancer?,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I think a weird spot might be skin cancer.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I fear I might have bone cancer because my leg hurts.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I'm scared this could be a rare cancer.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Do these symptoms match prostate cancer?,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Could these symptoms be related to a tumor?,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Could this be some serious illness like cancer?,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel funny but can’t explain why.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel weird but don’t have any real symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+Something feels off but nothing hurts.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+"I don't know what’s wrong, I just feel strange.","Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel different but I can’t point to a symptom.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+My body feels off but I have no specific symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel strange and can’t tell if I’m sick.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel unusual but no noticeable symptoms.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel odd today and can’t describe anything specific.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
+I feel funny and confused about what’s happening with my body.,"Condition: Unknown
+Guidance: I cannot confidently match these symptoms to any known condition. Please monitor your symptoms and consult a medical professional if they worsen. This is not a diagnosis."
